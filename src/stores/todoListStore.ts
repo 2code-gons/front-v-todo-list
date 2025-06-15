@@ -7,8 +7,8 @@ export const useTodoListStore = defineStore(
       id: "uuid",
       description: "Task 1",
       creationDate: "2025-06-12",
-      isDone: false,
-      status: "todo"
+      status: "todo",
+      isDone: false
     }
 
     return { todoList }
